@@ -16,4 +16,8 @@ RCT_EXPORT_METHOD(openSettings) {
   [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];
 }
 
+RCT_EXPORT_METHOD(openLocationSettings) {
+  // this is unfortunately not currently possible without the use of private apis
+}
+
 @end

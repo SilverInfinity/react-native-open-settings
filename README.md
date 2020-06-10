@@ -63,9 +63,16 @@ Require the `react-native-open-settings` module.
 import OpenSettings from 'react-native-open-settings';
 ```
 
-And then, where you want to open the settings, just do
+### Android & iOS
+Opens App settings page
 ```javascript
 OpenSettings.openSettings()
+```
+
+### Android Only
+Opens device location settings
+```javascript
+OpenSettings.openLocationSettings()
 ```
 
 Have fun!
