@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <RCTBridge.h>
+#import "RCTBridge.h"
 
 @interface RNOpenSettings : NSObject <RCTBridgeModule>
 
